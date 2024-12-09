@@ -11,3 +11,6 @@ substitutions:
   _REPOSITORY: "cloudrun-demo"
   _IMAGE: "image"
   _BUILDPLATFORM: "linux/amd64"
+
+options:
+  logging: CLOUD_LOGGING_ONLY 
